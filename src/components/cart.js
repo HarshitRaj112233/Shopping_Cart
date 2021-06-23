@@ -13,9 +13,9 @@ if (items_state === null) {
     totalItem: 0,
   };
 } else {
-  var initialState = items_state;
+  var initialState1 = items_state;
 }
-
+initialState = initialState1;
 const Cart = () => {
   const [state, dispatch] = useReducer(reducer, initialState);
   const Remove_Item = (id) => {
